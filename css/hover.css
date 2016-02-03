@@ -2448,6 +2448,7 @@
 /* Underline From Center */
 .hvr-underline-from-center {
   display: inline-block;
+  text-decoration: none;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
