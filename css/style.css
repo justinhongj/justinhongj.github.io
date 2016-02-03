@@ -441,8 +441,8 @@ nav span {
 
 .back-to-top {
 	position: fixed;
-	top: 90%;
-	left: 95%;
+	top: 75%;
+	left: 80%;
 	cursor: pointer;
 }
 

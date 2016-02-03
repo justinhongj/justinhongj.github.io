@@ -372,7 +372,6 @@ $(document).ready(function() {
 		// BACK TO TOP
 		//////////////
 
-	$("#btt-text").hide();
 
 	$(".back-to-top").click(function() {
 		$("body").stop().animate({scrollTop:0}, '700', 'swing');
