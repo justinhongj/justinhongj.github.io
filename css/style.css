@@ -409,7 +409,7 @@ nav span {
 }
 
 #connect-right img {
-	height: 30px;
+	height: 50px;
 	margin-right: 3%;
 	padding-bottom: 4%;
 }
@@ -421,6 +421,10 @@ nav span {
 #connect-links {
 	text-align: left;
 	padding-left: 30%;
+}
+
+.connect-link {
+	margin-bottom: 5%;
 }
 
 #connect-linkedin a:hover #linkedin { color: #2591F7; }
