@@ -1,0 +1,449 @@
+	/*//////////*/
+	/* DOCUMENT */
+	/*//////////*/
+
+html, body, section,
+.main {
+	height: 100%
+}
+
+.main section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.section-title {
+	height: 15%;
+	text-align: center;
+}
+
+.title {
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 3em;
+}
+
+.section-top {
+	height: 10%;
+	background: linear-gradient(to top, rgba(10, 10, 10, 0), rgba(10, 10, 10, 0.6));
+	z-index: 2;
+}
+
+
+	/*////////*/
+	/* HEADER */
+	/*////////*/
+
+
+#header {
+	background-image: url(../assets/amp-stack.jpeg);
+}
+
+nav {
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	background: linear-gradient(to top, rgba(10, 10, 10, 0), rgba(10, 10, 10, 0.6));
+}
+
+nav a {
+	display: inline-block;
+	margin-left: 4%;
+	margin-right: 4%;
+	width: 10%;
+	/*font-style: italic;*/
+	font-size: 1.3em;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+#name {
+	text-align: center;
+	margin-top: 12%;
+	font-size: 2em;
+	color: white;
+}
+
+#name span {
+	font-size: 2.9em;
+	font-weight: 600;
+}
+
+#name p {
+	/*font-family: serif;*/
+	/*font-style: italic;*/
+}
+
+
+	/*///////*/
+	/* ABOUT */
+	/*///////*/
+
+
+#about-body {
+	text-align: center;
+	color: #555;
+	/*background-color: #bbb;*/
+}
+
+#about-intro-container {
+	height: 40%;
+	background-color: #F3F5F8;
+}
+
+#about-intro {
+	margin: 0 auto;
+	padding: 4%;
+	max-width: 55%;
+	font-style: italic;
+	font-size: 1.5em;
+	text-align: center;
+	color: #333;
+}
+
+#about-container {
+	height: 59%;
+	width: 100%;
+	margin-top: 5%;
+}
+
+.about-topics {
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+}
+
+.about-buttons {
+	display: inline-block;
+	width: 50%;
+	background-color: #E9E9E9;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.about-details {
+	display: inline-block;
+	max-width: 40%;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+
+#about-quote {
+	font-size: 2.5em;
+}
+
+#about-author {
+	float: right;
+	font-size: 1.5em;
+}
+
+.about-details h2 {
+	font-size: 2.5em;
+	font-decoration: underline;
+}
+
+#about-audio {
+	color: #50BFB6;
+}
+
+#about-dev {
+	color: #FFB879;
+}
+
+#about-musician {
+	color: #CC90FF;
+}
+
+#about-audio-details h2 {
+	color: #50BFB6;
+}
+
+#about-dev-details h2 {
+	color: #FFB879;
+}
+
+#about-musician-details h2 {
+	color: #CC90FF;
+}
+
+.about-details p {
+	font-size: 1.5em;
+}
+
+.about-close {
+	float: right;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+
+
+	/*////////*/
+	/*PROJECTS*/
+	/*////////*/
+
+#projects-section {
+	height: 70%;
+}
+
+
+#projects-body {
+	height: 100%;
+}
+
+#professional-work {
+	position: relative;
+	top: 10%;
+	height: 49%;
+	visibility: hidden;
+}
+
+/*#professional-work h3 {
+	font-size: 2em;
+	padding: 1% 7%;
+}
+
+#professional-work-body {
+	height: 100%;
+}
+
+#project-tmi {
+	background-color: #eeeeee;
+}*/
+
+#student-work {
+	height: 48%;
+}
+
+#student-work-title h3 {
+	text-align: center;
+	font-size: 2em;
+	padding: 1% 7%;
+}
+
+#student-work-body {
+	height: 100%;
+}
+
+#project-tobe {
+	background-color: #eeeeee;
+}
+
+.work-row {
+	height: 100%;
+	width: 100%;
+	padding-top: 0.5%;
+	text-align: center;
+}
+
+.project-tile {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	width: 33%;
+	cursor: pointer;
+	text-align: left;
+}
+
+.project-tile img {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.project-tile .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	height: 100%;
+	width: 100%;
+	transition: all 300ms ease-out;
+	opacity: 0.9;
+	padding: 10% 10%;
+	color: #ffffff;
+	background-color: #424957;
+}
+
+.project-tile:hover .overlay { opacity: 0; }
+
+.project-tile .overtext {
+	transition: all 300ms ease-out;
+	transform: translateY(-20px);
+}
+
+.project-tile .project-tile-title {
+	opacity: 1;
+	transition-delay: 0.1s;
+	transition-duration: 0.2s;
+}
+
+.project-tile:hover .project-tile-title,
+.project-tile:focus .project-tile-title {
+	opacity: 0;
+	transform: translateY(0px);
+}
+
+.project-tile .project-tile-tagline {
+	opacity: 1;
+	transition-delay: 0.1s;
+	transition-duration: 0.2s;
+}
+
+.project-tile:hover .project-tile-tagline,
+.project-tile:focus .project-tile-tagline {
+	opacity: 0;
+	transform: translateY(0px);
+}
+
+
+	/*////////*/
+	/* SKILLS */
+	/*////////*/
+
+
+#skills-section {
+	height: 70%;
+}
+
+#skills-title {
+	height: 30%;
+	background-image: url(../assets/mixer.jpg);
+	color: white;
+}
+
+#skills-body {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.skills-row {
+	height: 40%;
+	padding-top: 2%;
+}
+
+.skills-tiles {
+	display: inline-block;
+	position: relative;
+	height: 100%;
+	width: 15%;
+	margin: 0 1%;
+	cursor: pointer;
+	background-color: #ffffff;
+	border-radius: 25px;
+}
+
+.skills-tiles-titles {
+	padding-top: 20%;
+	text-align: center;
+	font-size: 1em;
+	color: #f2f2f2;
+}
+
+.skills-tiles-cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #404040;
+	border: 10px solid #f2f2f2;
+	border-radius: 35px;
+}
+
+.skills-tiles-keys {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 20px;
+	width: 20px;
+	color: #f2f2f2;
+	border: 2px solid #f2f2f2;
+	border-radius: 5px;
+}
+
+
+
+	/*/////////*/
+	/* CONNECT */
+	/*/////////*/
+
+
+#connect-body {
+	height: 70%;
+	/*background-color: #222222;*/
+	background-image: url(../assets/live-mixer.jpg);
+	text-align: center;
+	color: white;
+}
+
+.connect-tiles {
+	position: relative;
+	margin-top: 2%;
+	display: inline-block;
+	width: 33%;
+}
+
+#connect-left img {
+	height: 200px;
+	border-radius: 150px;
+}
+
+#connect-right a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#connect-right img {
+	height: 30px;
+	margin-top: 12%;
+	margin-right: 3%;
+}
+
+#connect-right span {
+	font-size: 1.5vw;
+}
+
+#connect-links {
+	text-align: left;
+	padding-left: 30%;
+}
+
+#connect-linkedin a:hover #linkedin { color: #2591F7; }
+
+#connect-github a:hover #github { color: #2591F7; }
+
+#connect-ga a:hover #ga { color: #2591F7; }
+
+
+	/*///////////*/
+	/*BACK TO TOP*/
+	/*///////////*/
+
+
+.back-to-top {
+	position: fixed;
+	top: 90%;
+	left: 95%;
+	cursor: pointer;
+}
+
+.back-to-top img {
+	height: 45px;
+	width: 45px;
+}
