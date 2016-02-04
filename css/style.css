@@ -439,14 +439,15 @@ nav span {
 	/*///////////*/
 
 
-.back-to-top {
+/*.back-to-top {
 	position: fixed;
 	top: 75%;
 	left: 80%;
 	cursor: pointer;
+	z-index: 100;
 }
 
 .back-to-top img {
 	height: 45px;
 	width: 45px;
-}
+}*/
