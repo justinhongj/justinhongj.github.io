@@ -139,6 +139,7 @@ nav span {
 
 #about-quote {
 	font-size: 2.5em;
+	max-width: 80%;
 }
 
 #about-author {
