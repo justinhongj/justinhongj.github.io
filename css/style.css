@@ -380,7 +380,8 @@ nav span {
 }
 
 .skills-tiles-keys span {
-	font-family: Arial;
+	position: absolute;
+	top: 0;
 }
 
 
