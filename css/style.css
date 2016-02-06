@@ -380,9 +380,7 @@ nav span {
 }
 
 .skills-tiles-keys span {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+	margin-bottom: 1%;
 }
 
 
