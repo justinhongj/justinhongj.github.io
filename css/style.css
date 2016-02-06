@@ -379,6 +379,12 @@ nav span {
 	border-radius: 5px;
 }
 
+.skills-tiles-keys span {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
 
 
 	/*/////////*/
