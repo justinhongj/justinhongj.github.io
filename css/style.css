@@ -196,7 +196,7 @@ nav span {
 
 
 #projects-title {
-	height: 30%;
+	height: 20%;
 	background-image: url(../assets/mic-mixer.jpg);
 	color: white;
 }
@@ -328,7 +328,7 @@ nav span {
 }
 
 #skills-title {
-	height: 15%;
+	height: 30%;
 	background-image: url(../assets/mixer.jpg);
 	color: white;
 }
