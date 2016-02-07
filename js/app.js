@@ -14,7 +14,7 @@ $(document).ready(function() {
 	});
 
 	$("#nav-projects").click(function() {
-		$("html,body").animate({scrollTop: $("#projects-body").offset().top}, 600, 'swing');
+		$("html,body").animate({scrollTop: $("#projects-title").offset().top}, 600, 'swing');
 	});
 
 	$("#nav-connect").click(function() {
