@@ -342,7 +342,7 @@ nav span {
 }
 
 .skills-row {
-	height: 40%;
+	height: 45%;
 	padding-top: 2%;
 }
 
@@ -389,6 +389,10 @@ nav span {
 
 .skills-tiles-keys span {
 	padding-bottom: 10%;
+}
+
+#instructions {
+	text-align: center;
 }
 
 
