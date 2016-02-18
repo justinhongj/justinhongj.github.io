@@ -25,6 +25,7 @@ $(document).ready(function() {
 		////////////////
 		// ABOUT BUTTONS
 		////////////////
+		
 
 	$(".about-details").hide();
 	$(".about-close").hide();

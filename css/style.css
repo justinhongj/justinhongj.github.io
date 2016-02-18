@@ -117,13 +117,15 @@ nav span {
 }
 
 .about-topics {
+	display: inline-block;
+	position: relative;
 	width: 30%;
 	height: 100%;
-	display: inline-block;
 }
 
 .about-buttons {
 	display: inline-block;
+	position: relative;
 	width: 50%;
 	background-color: #E9E9E9;
 	border-radius: 30px;
@@ -452,6 +454,56 @@ nav span {
 
 #connect-ga a:hover #ga { color: #2591F7; }
 
+
+	/*///////////////////*/
+	/*KEYFRAME ANIMATIONS*/
+	/*///////////////////*/
+
+
+@keyframes slide-in-from-left {
+	from {
+		left: -300px;
+		opacity: 0;
+	}
+	to {
+		left: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes slide-in-from-top {
+	from {
+		top: -100px;
+		opacity: 0;
+	}
+	to {
+		top: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes slide-in-from-right {
+	from {
+		right: -300px;
+		opacity: 0;
+	}
+	to {
+		right: 0;
+		opacity: 1;
+	}
+}
+
+.slide-in-from-left {
+	animation: slide-in-from-left 1.5s;
+}
+
+.slide-in-from-top {
+	animation: slide-in-from-top 1.5s;
+}
+
+.slide-in-from-right {
+	animation: slide-in-from-right 1.5s;
+}
 
 	/*///////////*/
 	/*BACK TO TOP*/
